@@ -16,6 +16,9 @@ void setup(){
   digitalWrite(LED, HIGH);
   delay(4000);
   digitalWrite(LED, LOW);
+  delay(500);
+  digitalWrite(LED, HIGH);
+  delay(100);
   /*******************/
 
   digitalWrite(BTPWR, HIGH);
